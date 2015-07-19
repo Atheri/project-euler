@@ -4,7 +4,7 @@ import math
 
         
 def is_prime(num):
-    i = 3
+    i = 2
     result = 0
     while i < num:
         result = num / i
