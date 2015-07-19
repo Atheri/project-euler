@@ -9,8 +9,8 @@ def is_palindrome(string):
 
 pal_list = []
 
-for i in range(1, 999):
-    for j in range(1, 999):
+for i in range(1, 1000):
+    for j in range(1, 1000):
         result = i*j
         if is_palindrome(str(result)):
             pal_list.append(result)
