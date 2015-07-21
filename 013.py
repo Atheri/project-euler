@@ -1,3 +1,13 @@
+"""
+Runtime: 6.12e-05 seconds
+This one seemed much easier than the other ones, although python doesn't seem
+to have problems with huge numbers by default. Python list even has a sum
+function built-in!
+"""
+
+import time
+
+start = time.time()
 
 input = []
 input.append(37107287533902102798797998220837590246510135740250)
@@ -101,4 +111,7 @@ input.append(72107838435069186155435662884062257473692284509516)
 input.append(20849603980134001723930671666823555245252804609722)
 input.append(53503534226472524250874054075591789781264330331690)
 
-print(input)
+total = sum(input)
+print("first 10 digits:", str(total)[:10])
+end = time.time()
+print("time:", end-start, "seconds")
