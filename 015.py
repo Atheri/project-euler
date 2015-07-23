@@ -39,7 +39,6 @@ grid.append([1]*(n+1))             # add the row of all 1's
 
 for i in range(n-1, -1, -1):
     for j in range(n-1, -1, -1):
-        print(i, j)
         grid[i][j] = grid[i+1][j] + grid[i][j+1] 
 
         
