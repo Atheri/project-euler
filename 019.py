@@ -4,7 +4,7 @@ runtime: 0.0356 seconds
 A thousand years of days isn't very much, so I just made a little simulation.
 The advance function advances the calendar by 1 day, and makes adjustments to
 weekday, month, year, and adjusts feb when needed for leap year. After every
-advance it checks the date to see if its the first of the month and a second.
+advance it checks the date to see if its the first of the month and a sunday.
 Continues until the year 2001 is reached. This way it's really easy to change
 the start and end date, provided the dates are valid, to look in a different
 range.
